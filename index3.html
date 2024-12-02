@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wq</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .shell{
+            margin: 0;
+            padding-left:5vw;
+            display: flex;
+            justify-content: center;
+            height: 100vw;
+            background-color: bisque;
+
+        }
+        .shell{
+            width: 90%;
+            height: 700px;
+            display: flex;
+        }
+        .box{
+            flex: 1;
+            overflow: hidden;
+            transition: .5s;
+            margin: 0 20px;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, .5);
+            border-radius: 20px;
+            border: 10px solid #fff;
+            background-color: #fff;
+        }
+        .box>img{
+            width: 200%;
+            height: 85%;
+            object-fit: cover;
+            transition: .5s;
+        }
+        .box>span{
+            font: 200 45px;
+            font-size: 20px;
+            text-align: center;
+            height: 15%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box:hover{
+            flex-basis: 40%;
+        }
+        .box:hover>img{
+            height: 100%;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>    <header>
+    <img src="../images/IMG_0207.JPG" alt="Mozart" class="banner">
+
+<div class="nav">
+    <a href="../index.html"><strong>人物简介</strong></a>
+    <a href="index1.html"><strong>生平经历</strong></a>
+    <a href="index2.html"><strong>主要作品</strong></a>
+    <a href="index3.html"><strong>相关二创</strong></a>
+    <a href="index4.html"><strong>关于作者</strong></a>
+</div>
+<div class="title">Wolfgang Amadeus Mozart</div>
+</header>
+<div class="shell">
+    <div class="box">
+        <img src="../images/IMG_2915.JPG" alt="">
+        <span>电影</span>
+    </div>
+    <div class="box">
+        <img src="../images/IMG_2917.JPG" alt="">
+        <span>音乐剧</span>
+    </div>
+    <div class="box">
+        <img src="../images/IMG_2918.JPG" alt="">
+        <span>音乐剧</span>
+    </div>
+    <div class="box">
+        <img src="../images/IMG_0140.JPG" alt="">
+        <span>宣传海报</span>
+    </div>
+    <div class="box">
+        <img src="../images/IMG_0084.JPG" alt="">
+        <span>同人</span>
+    </div>
+    <div class="box">
+        <img src="../images/IMG_0078.JPG" alt="">
+        <span>同人</span>
+    </div>
+</div>
+<footer>
+    <p>@17560127</p>
+</footer>
+</body>
+</html>
